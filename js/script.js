@@ -10,6 +10,7 @@ var app = new Vue({
       "img/image3.jpg",
       "img/image4.jpg"
     ],
+    pallino:"active"
   },
    methods: {
      nextFoto: function () {
@@ -26,5 +27,8 @@ var app = new Vue({
          this.fotoIndex = this.foto.length - 1;
        }
      }
-  }
+
+       }
+
+
 })
