@@ -10,7 +10,7 @@ var app = new Vue({
       "img/image3.jpg",
       "img/image4.jpg"
     ],
-    pallino:"active"
+    pallino:"fas fa-circle"
   },
    methods: {
      nextFoto: function () {
@@ -26,7 +26,11 @@ var app = new Vue({
        if(this.fotoIndex < (0)){
          this.fotoIndex = this.foto.length - 1;
        }
-     }
+     },
+     pallini: function(indexPallini) {
+      this.fotoIndex = indexPallini
+    }
+
 
        }
 
