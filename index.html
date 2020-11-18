@@ -25,7 +25,7 @@
                   <i class="fas fa-angle-right"></i>
               </div>
               <div class="nav">
-                <i class="fas fa-circle" v-for="(element, i) in foto" :class="[foto, {active: i === fotoIndex}]"  @click="pallini(i)" ></i>
+                <i class="fas fa-circle" v-for="(element, i) in foto" :class="[foto, {active: i === fotoIndex}]"  @mouseover="pallini(i)" ></i>
               </div>
           </div>
       </div>
